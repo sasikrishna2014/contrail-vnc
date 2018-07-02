@@ -1,6 +1,6 @@
 <manifest>
 <remote name="github" fetch="https://github.com/Juniper/"/>
-<remote name="contrail-third-party-github" fetch="https://github.com/sasikrishna2014/contrail-third-party"/>  
+<remote name="contrail-third-party-github" fetch="https://github.com/sasikrishna2014/"/>  
 
 <default revision="R4.1" remote="github"/>
 

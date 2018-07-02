@@ -1,5 +1,6 @@
 <manifest>
 <remote name="github" fetch="https://github.com/Juniper/"/>
+<remote name="contrail-third-party-github" fetch="https://github.com/sasikrishna2014/contrail-third-party"/>  
 
 <default revision="R4.1" remote="github"/>
 
@@ -8,7 +9,7 @@
 </project>
 <project name="contrail-controller" remote="github" path="controller"/>
 <project name="contrail-vrouter" remote="github" path="vrouter"/>
-<project name="contrail-third-party" remote="github" path="https://github.com/sasikrishna2014/third_party"/>
+<project name="contrail-third-party" remote="contrail-third-party-github" path="third_party"/>
 <project name="contrail-generateDS" remote="github" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh"/>
 <project name="contrail-packages" remote="github" path="tools/packages">

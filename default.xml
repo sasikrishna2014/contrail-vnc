@@ -2,13 +2,14 @@
 <remote name="github" fetch="https://github.com/Juniper/"/>
 <remote name="contrail-third-party-github" fetch="https://github.com/sasikrishna2014/"/>
 <remote name="contrail-vrouter-ppcgithub" fetch="https://github.com/sasikrishna2014/"/>
+<remote name="contrail-controller-github" fetch="https://github.com/sasikrishna2014/"/>  
 
 <default revision="R4.1" remote="github"/>
 
 <project name="contrail-build" remote="github" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller"/>
+<project name="contrail-controller" remote="contrail-controller-github" path="controller"/>
 <project name="contrail-vrouter" remote="contrail-vrouter-ppcgithub" path="vrouter"/>
 <project name="contrail-third-party" remote="contrail-third-party-github" path="third_party"/>
 <project name="contrail-generateDS" remote="github" path="tools/generateds"/>
